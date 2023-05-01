@@ -1,6 +1,7 @@
 {
   "name": "fairmont",
   "version": "0.1.0",
+  "hompage": "https://krisn22.github.io/krisn22.FCPGI",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
