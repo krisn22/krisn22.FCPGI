@@ -29,7 +29,7 @@ function Header(){
                         </div>
                         
                         <div className="NavDonateButton">         
-                            <a className="f3 grow no-underline br-pill pl3 pr3 pt1 pb2 mt4 dib white bg-red tc" href="/donate">Donate</a>
+                            <button className="DonateButton"><Link to="/donate" className="DonateLink">Donate</Link></button>
                         </div>
                   
 
