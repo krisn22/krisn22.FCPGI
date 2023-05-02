@@ -61,10 +61,34 @@
     flex-direction: row;
 }
 
-
 .NavDonateButton{
     margin-right: 0;
-    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    
+}
+
+.DonateButton{
+    border-radius: 30px;
+    border: none;
+    padding: 10px 10px;
+    display: inline-block;
+    width: 110px;
+    background-color: #d11220;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.DonateButton:hover {
+    transform: scale(1.1);
+}
+
+.DonateLink{
+    text-decoration: none;
+    color: white;
 }
 
 .SearchLogoDiv{
